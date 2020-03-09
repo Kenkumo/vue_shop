@@ -25,7 +25,20 @@ body,
 .el-pagination {
     margin-top: 15px;
 }
+
 /* 级联选择器高度 */
 .el-cascader-menu {
     height: 400px !important;
+}
+
+.el-steps {
+    margin: 15px 0;
+}
+
+.el-step__title {
+    font-size: 13px;
+}
+
+.ql-editor {
+    min-height: 300px;
 }
