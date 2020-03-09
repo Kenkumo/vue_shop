@@ -36,7 +36,9 @@ import {
   Step,
   Upload,
   Checkbox,
-  CheckboxGroup
+  CheckboxGroup,
+  Timeline,
+  TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -74,6 +76,8 @@ Vue.use(Step)
 Vue.use(Upload)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 // 将弹窗挂载到vue的原型对象，可用this访问
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
